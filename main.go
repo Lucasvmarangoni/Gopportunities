@@ -1,8 +1,6 @@
 package main
 
 import (
-	"fmt"
-
 	"github.com/Lucasvmarangoni/go-api/config"
 	router "github.com/Lucasvmarangoni/go-api/routers"
 )

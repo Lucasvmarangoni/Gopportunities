@@ -1,1 +1,14 @@
 notes.md
+
+*.exe
+*.dll
+*.so
+*.dylib
+
+*.test
+
+*.out
+
+Db foulder
+
+db/
