@@ -2,7 +2,6 @@ package config
 
 import (
 	"os"
-
 	"github.com/Lucasvmarangoni/go-api/schemas"
 	"gorm.io/driver/sqlite"
 	"gorm.io/gorm"
