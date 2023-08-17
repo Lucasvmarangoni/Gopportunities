@@ -1,11 +1,25 @@
 package handler
 
 import (
-	"net/http"
 	"github.com/Lucasvmarangoni/go-api/schemas"
 	"github.com/gin-gonic/gin"
+	"net/http"
 )
 
+// @BasePath /api/v1/
+
+// @Summary List opening
+// @Description List openings
+// @Tags Openings
+// @Accept json
+// @Produce json
+// @Param id query string true "Opening Identification"
+// @Param opening body DefaultOpeningRequest true "Opening data to Update"
+// @Success 200 {object} DefaultOpeningResponse
+// @Failure 400 {object} ErrorResponse
+// @Failure 404 {object} ErrorResponse
+// @Failure 500 {object} ErrorResponse
+// @Router /openings [put]
 func UpdateOpeningHandler(ctx *gin.Context) {
 	request := UpdateOpeningRequest{}
 
