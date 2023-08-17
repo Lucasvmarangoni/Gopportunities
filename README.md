@@ -5,7 +5,7 @@
 ## Tecnologias
 
 - Golang
-- Gin
+- Gin-gonic
 - Gorm
 - SQLite
 - Swaggo (swag)
